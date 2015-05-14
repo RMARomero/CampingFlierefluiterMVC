@@ -211,12 +211,17 @@
     <Compile Include="Migrations\201505141413575_ModelsMigration.Designer.cs">
       <DependentUpon>201505141413575_ModelsMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201505141428446_Models2-Migration.cs" />
+    <Compile Include="Migrations\201505141428446_Models2-Migration.Designer.cs">
+      <DependentUpon>201505141428446_Models2-Migration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\CampingSite.cs" />
     <Compile Include="Models\Facility.cs" />
     <Compile Include="Models\Guest.cs" />
     <Compile Include="Models\Invoice.cs" />
+    <Compile Include="Models\PdfModel.cs" />
     <Compile Include="Models\Reservation.cs" />
     <Compile Include="Models\Season.cs" />
     <Compile Include="Models\User.cs" />
@@ -346,6 +351,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201505141413575_ModelsMigration.resx">
       <DependentUpon>201505141413575_ModelsMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505141428446_Models2-Migration.resx">
+      <DependentUpon>201505141428446_Models2-Migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

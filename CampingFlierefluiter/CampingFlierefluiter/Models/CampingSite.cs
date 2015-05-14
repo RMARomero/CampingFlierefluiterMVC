@@ -8,8 +8,9 @@ namespace CampingFlierefluiter.Models
 {
     public class CampingSite
     {
-        [Required]
+        [Key]
         public int CampingSiteID { get; set; }
+
         public string SiteName { get; set; }
         public string FieldName { get; set; }
         public int SurfaceArea { get; set; }

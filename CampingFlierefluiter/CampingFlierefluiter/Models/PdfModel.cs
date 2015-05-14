@@ -6,12 +6,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CampingFlierefluiter.Models
 {
-    public class Facility
+    public class PdfModel
     {
         [Key]
-        public int FacilityID { get; set; }
+        public int pdfId { get; set; }
 
-        public decimal FacilityPrice { get; set; }
-        public string FacilityType { get; set; }
+        public string pdfTitle { get; set; }
+
+        public string pdflocation { get; set; }
     }
 }

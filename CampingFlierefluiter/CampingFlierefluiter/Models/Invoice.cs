@@ -18,6 +18,5 @@ namespace CampingFlierefluiter.Models
         public DateTime PaymentDate { get; set; }
 
         public decimal Price { get; set; }
-        public int PdfID { get; set; }
     }
 }

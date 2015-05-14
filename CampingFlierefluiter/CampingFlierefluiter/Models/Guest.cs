@@ -8,7 +8,7 @@ namespace CampingFlierefluiter.Models
 {
     public class Guest
     {
-        [Required]
+        [Key]
         public int GuestID { get; set; }
 
         public int ReservationID { get; set; }
