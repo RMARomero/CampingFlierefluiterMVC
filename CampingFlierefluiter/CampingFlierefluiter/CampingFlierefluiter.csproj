@@ -196,7 +196,9 @@
     <Compile Include="Models\CampingSite.cs" />
     <Compile Include="Models\Facility.cs" />
     <Compile Include="Models\Guest.cs" />
+    <Compile Include="Models\Invoice.cs" />
     <Compile Include="Models\Reservation.cs" />
+    <Compile Include="Models\Season.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

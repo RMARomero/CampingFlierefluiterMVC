@@ -25,8 +25,10 @@ namespace CampingFlierefluiter.Models
 
         [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
+
         public string Email { get; set; }
         public long IDCard { get; set; }
-        //Reservationlist missing methods aswell
+
+        public List<Reservation> ReservationList { get; set; }
     }
 }

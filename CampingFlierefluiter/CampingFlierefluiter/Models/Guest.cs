@@ -17,7 +17,11 @@ namespace CampingFlierefluiter.Models
         public string Addres { get; set; }
         public string City { get; set; }
         public string Zipcode { get; set; }
+
+        [DataType(DataType.Date)]
         public DateTime ArrivalDate { get; set; }
+
+        [DataType(DataType.Date)]
         public DateTime DepartureDate { get; set; }
     }
 }
