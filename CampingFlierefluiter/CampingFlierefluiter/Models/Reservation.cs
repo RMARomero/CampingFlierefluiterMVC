@@ -19,13 +19,21 @@ namespace CampingFlierefluiter.Models
         public DateTime DepartureDate { get; set; }
 
         public CampingSite Site { get; set; }
+        public int CampingSiteID { get; set; }
+
         public User User { get; set; }
+        public int UserId { get; set; }
+
         public int AmmountOfPeople { get; set; }
-        //list of guest
+
         public List<Guest> Guests { get; set; }
+
         public List<Facility> Facilities { get; set; } //tv, radio etc
+
         public int[] SelectedFacilities { get; set; } //tv, radio etc
+
         public bool isInvoiced { get; set; }
+
         public bool isPaid { get; set; }
     }
 }

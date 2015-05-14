@@ -12,12 +12,19 @@ namespace CampingFlierefluiter.Models
         public int CampingSiteID { get; set; }
 
         public string SiteName { get; set; }
+
         public string FieldName { get; set; }
+
         public int SurfaceArea { get; set; }
+
         public bool isWifi { get; set; }
+
         public bool isWater { get; set; }
+
         public bool isSewer { get; set; }
+
         public decimal SitePrice { get; set; }
+
         public string SiteType { get; set; }
     }
 }

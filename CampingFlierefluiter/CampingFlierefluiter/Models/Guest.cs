@@ -12,10 +12,15 @@ namespace CampingFlierefluiter.Models
         public int GuestID { get; set; }
 
         public int ReservationID { get; set; }
+
         public string Name { get; set; }
+
         public int Age { get; set; }
+
         public string Addres { get; set; }
+
         public string City { get; set; }
+
         public string Zipcode { get; set; }
 
         [DataType(DataType.Date)]
