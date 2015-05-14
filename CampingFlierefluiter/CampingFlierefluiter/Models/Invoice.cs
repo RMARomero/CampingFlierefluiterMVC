@@ -11,10 +11,10 @@ namespace CampingFlierefluiter.Models
         [Key]
         public int InvoiceID { get; set; }
 
-        public User User { get; set; }
+        //public User User { get; set; }
         public int UserId { get; set; }
 
-        public Reservation Reservation { get; set; }
+        //public Reservation Reservation { get; set; }
         public int ReservationID { get; set; }
 
         [DataType(DataType.Date)]

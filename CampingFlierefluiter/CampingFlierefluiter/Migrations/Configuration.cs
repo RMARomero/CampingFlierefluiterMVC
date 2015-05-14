@@ -5,14 +5,15 @@ namespace CampingFlierefluiter.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<CampingFlierefluiter.Models.UsersContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CampingFlierefluiter.Context.DataContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "CampingFlierefluiter.Context.DataContext";
         }
 
-        protected override void Seed(CampingFlierefluiter.Models.UsersContext context)
+        protected override void Seed(CampingFlierefluiter.Context.DataContext context)
         {
             //  This method will be called after migrating to the latest version.
 

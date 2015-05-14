@@ -12,6 +12,7 @@ namespace CampingFlierefluiter.Models
         public int FacilityID { get; set; }
 
         public decimal FacilityPrice { get; set; }
+
         public string FacilityType { get; set; }
     }
 }

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<CampingFlierefluiter.Models.CampingSite>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SiteName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FieldName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SurfaceArea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.isWifi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.isWater)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.isSewer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SitePrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SiteType)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SiteName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FieldName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SurfaceArea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.isWifi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.isWater)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.isSewer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SitePrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SiteType)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CampingSiteID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CampingSiteID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CampingSiteID })
+        </td>
+    </tr>
+}
+
+</table>
