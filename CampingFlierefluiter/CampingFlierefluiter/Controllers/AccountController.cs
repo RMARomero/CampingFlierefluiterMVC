@@ -14,7 +14,7 @@ using CampingFlierefluiter.Models;
 namespace CampingFlierefluiter.Controllers
 {
     [Authorize]
-    [InitializeSimpleMembership]
+    //[InitializeSimpleMembership]
     public class AccountController : Controller
     {
         //
