@@ -245,6 +245,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICampingSiteRepository.cs" />
+    <Compile Include="Abstract\IFacilityRepository.cs" />
+    <Compile Include="Abstract\IGuestRepository.cs" />
+    <Compile Include="Abstract\IInvoiceRepository.cs" />
+    <Compile Include="Abstract\IPdfRepository.cs" />
+    <Compile Include="Abstract\IReservationRepository.cs" />
+    <Compile Include="Abstract\ISeasonRepository.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -281,7 +288,16 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Context\CampingSiteRepository.cs" />
     <Compile Include="Context\DataContext.cs" />
+    <Compile Include="Context\FacilityRepository.cs" />
+    <Compile Include="Context\GuestRepository.cs" />
+    <Compile Include="Context\InvoiceRepository.cs" />
+    <Compile Include="Abstract\IUserRepository.cs" />
+    <Compile Include="Context\PdfRepository.cs" />
+    <Compile Include="Context\ReservationRepository.cs" />
+    <Compile Include="Context\SeasonRepository.cs" />
+    <Compile Include="Context\UserRepository.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CampingSiteController.cs" />
     <Compile Include="Controllers\FacilityController.cs" />
