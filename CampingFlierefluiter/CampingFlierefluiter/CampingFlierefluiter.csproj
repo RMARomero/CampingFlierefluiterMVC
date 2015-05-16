@@ -319,6 +319,7 @@
     <Compile Include="Models\Reservation.cs" />
     <Compile Include="Models\Season.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Infrastructure\NinjectDependencyResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
